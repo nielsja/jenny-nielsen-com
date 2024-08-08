@@ -1,4 +1,4 @@
-html {
+/* html {
   height: 100vh;
 }
 
@@ -14,4 +14,24 @@ canvas {
   max-height: 100vh;
   max-width: 100vw;
   transform: translate(-50%, -50%);
+} */
+
+.zoom {
+  position: sticky;
+  top: 20vh;
+  will-change: transform;
+  width: 100%;
+  transform: scale(1);
+}
+
+.bottom {
+  height: 100vh;
+}
+
+.top {
+  height: 80vh;
+}
+
+.wrap {
+  height: 200vh;
 }
